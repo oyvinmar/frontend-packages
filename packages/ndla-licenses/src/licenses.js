@@ -4,6 +4,7 @@
  * This source code is licensed under the GPLv3 license found in the
  * LICENSE file in the root directory of this source tree.
  *
+ * @flow
  */
 
 /* eslint max-len: 0 */
@@ -106,7 +107,7 @@ function licenseByLocale(license, locale) {
   };
 }
 
-export function getLicenseByAbbreviation(abbreviation, locale) {
+export function getLicenseByAbbreviation(abbreviation: string, locale: string) {
   switch (abbreviation) {
     case 'by-nc-nd' : return licenseByLocale(byncnd, locale);
     case 'by-nc-sa' : return licenseByLocale(byncsa, locale);
