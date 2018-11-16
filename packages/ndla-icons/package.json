@@ -21,7 +21,6 @@
     "editor",
     "common",
     "contentType",
-    "license",
     "action"
   ],
   "peerDependencies": {
@@ -29,5 +28,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "06fb3a43244cfe63337417685a783ec178cd9ea7"
 }
